@@ -13,6 +13,7 @@ body {
 a {
   font-weight: bold;
   color: #05080C;
+  text-decoration: none;
 }
 
 small {
@@ -20,7 +21,7 @@ small {
 }
 
 strong {
-  color: #030609;
+/*  color: #030609;*/
   font-style: italic;
 }
 
@@ -35,7 +36,7 @@ h1 {
 }
 
 h2 {
-  color: #030609;
+/*  color: #030609;*/
   font-family: 'quicksand';
   margin-top: 0;
   margin-bottom: 0;
@@ -53,8 +54,8 @@ h3 {
 h4 {
   font-weight: normal;
   margin-bottom: 0;
-  color: #05080C;
-  font-family: 'lobster'
+/*  color: #05080C;*/
+  font-family: 'open sans'
 }
 
 p {
@@ -62,7 +63,7 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   /*margin-bottom: 27px;*/
-  color: #05080C;
+/*  color: #05080C;*/
 }
 
 ul {
@@ -70,9 +71,9 @@ ul {
   padding: 0;
 }
 
-ul p {
+/*ul p {
   color: #05080C;
-}
+}*/
 
 nav li {
   color: #05080C;
@@ -111,12 +112,15 @@ img[alt] {
 nav {
   color: #222222;
   text-align: center;
-  background: red;
+  background: #f06c64;
   position: fixed;
-  opacity: 0.8;
+  opacity: 0.9;
   top:0;
   right: 0;
   width: 100%;
+  font-family: 'open sans';
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 #scrollToTop{
@@ -137,21 +141,35 @@ nav {
 }
 
 #about{
-  background-image: url('images/mountains.jpeg');
-  background-size: 900px;
+  background: url('images/mountains.jpeg') no-repeat;
+  background-size: cover;
 
 }
 
 #experience{
-  background-image: url('images/nyc_bw.jpg');
+  background: url('images/nyc_bw.jpg') no-repeat;
+  background-size: cover;
 
 }
 
 #portfolio{
   background-attachment: fixed;
   background-image: url('images/footer.png');
+  background-size: cover;
+  color: white;
 }
 
 li{
   list-style-type: none;
+}
+footer{ 
+text-align: center;
+padding:0 90px;
+
+}
+.fa:hover{
+  color: red;
+}
+section#education{
+  min-height: 200px;
 }

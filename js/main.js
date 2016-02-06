@@ -11,7 +11,7 @@ function onLinkClick(event)
 }
 
 //set up click event
-$('nav a').click(onLinkClick);
+$('nav a').not('#github').click(onLinkClick);
 
 function scrollToTop()
 {
