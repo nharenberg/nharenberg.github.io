@@ -37,10 +37,11 @@ h1 {
 
 h2 {
 /*  color: #030609;*/
-  font-family: 'quicksand';
+  font-family: 'open sans';
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 50px;
+  font-size: 45px;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -55,7 +56,8 @@ h4 {
   font-weight: normal;
   margin-bottom: 0;
 /*  color: #05080C;*/
-  font-family: 'open sans'
+  font-family: 'open sans';
+  font-size: 25px;
 }
 
 p {
@@ -105,7 +107,7 @@ img {
   height: 200px;
 }
 
-img[alt] {
+img {
   float: right;
 }
 
@@ -172,4 +174,8 @@ padding:0 90px;
 }
 section#education{
   min-height: 200px;
+}
+
+.clearfix{
+  overflow: auto;
 }
