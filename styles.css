@@ -6,7 +6,7 @@ body {
   border-bottom: 5px solid #222222;
 /*  border-top: 6px solid #222222;*/
 /*  padding: 50px;*/
-  background: rgb(45, 45, 45);
+  background: #2D2D2D;
 
 }
 
@@ -132,13 +132,15 @@ nav {
   bottom: 0;
   right: 10px;
   width: 60px;
-  background: linen;
-  border-radius: 50%;
+  background: wheat;
+  border-radius: 40%;
   display: none;
   font-style: bold;
-  font-family: 'poriet one';
-  font-size: 15px;
+  font-family: 'open sans';
+  font-size: 19px;
   text-decoration: bold;
+  height: 40px;
+  width: 130px;
 }
 
 #me{
@@ -155,7 +157,6 @@ nav {
 #experience{
   background: url('images/nyc_bw.jpg') no-repeat;
   background-size: cover;
-
 }
 
 #portfolio{
@@ -181,9 +182,12 @@ padding:0 90px;
 .fa:hover{
   color: wheat;
 }
-section#education{
+#education{
   min-height: 200px;
   color: white;
+  background-attachment: fixed;
+  background-image: url('images/footer.png');
+  background-size: cover;
 }
 
 .clearfix{
@@ -191,7 +195,7 @@ section#education{
 }
 
 nav li a:hover{
-    background: rgb(45, 45, 45);
+    background: #2D2D2D;
     color: wheat;
 }
 
@@ -200,7 +204,7 @@ nav li a {
   transition: 0.5s all;
 }
 
-#experience p{
+#experience ul{
   background-color: rgba(255, 255, 255, .3);
   padding: 10px;
   box-shadow: 0 0 5px rgba(0,0,0,.75);
@@ -210,4 +214,12 @@ nav li a {
   background-color: rgba(255, 255, 255, .3);
   padding: 10px;
   box-shadow: 0 0 5px rgba(0,0,0,.75);
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+#experience li{
+    font-family: Georgia, serif;
 }
