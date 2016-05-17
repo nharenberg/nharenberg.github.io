@@ -129,18 +129,19 @@ nav {
 
 #scrollToTop{
   position: fixed;
-  bottom: 0;
+  bottom: 10px;
   right: 10px;
   width: 60px;
   background: wheat;
-  border-radius: 40%;
+  border-radius: 10%;
   display: none;
   font-style: bold;
   font-family: 'open sans';
   font-size: 19px;
   text-decoration: bold;
-  height: 40px;
-  width: 130px;
+  height: 30px;
+  width: 30px;
+  opacity: 0.8;
 }
 
 #me{
