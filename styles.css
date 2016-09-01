@@ -7,7 +7,6 @@ body {
 /*  border-top: 6px solid #222222;*/
 /*  padding: 50px;*/
   background: #2D2D2D;
-
 }
 
 a {
@@ -100,18 +99,16 @@ hr {
   margin: 30px 0;
 }
 
-img {
-  /*float: right;*/
+.screenshot {
   margin-left: 20px;
   margin-bottom: 20px;
   padding: 5px;
   text-align: center;
   height: 200px;
-}
-
-img {
   float: right;
 }
+
+
 
 nav {
   color: #222222;
@@ -129,8 +126,8 @@ nav {
 
 #scrollToTop{
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 25px;
+  right: 25px;
   width: 60px;
   background: wheat;
   border-radius: 10%;
@@ -147,6 +144,11 @@ nav {
 #me{
   float: right;
   border-radius: 50%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-align: center;
+  height: 200px;
 }
 
 #about{
@@ -170,7 +172,7 @@ nav {
 li{
   list-style-type: none;
 }
-footer{ 
+footer{
 text-align: center;
 padding:0 90px;
 
@@ -227,7 +229,12 @@ a:visited{
 
 @media screen and (max-width: 768px)
 {
-  h1{
-    font-family: Georgia, serif;
-  }
+
+}
+
+.icon {
+  height: 50px;
+  float: center;
+  padding-right: 40px;
+  padding-left: 5px;
 }
