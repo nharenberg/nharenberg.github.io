@@ -2,8 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Your description goes here">
-    <meta name="keywords" content="one, two, three">
+    <meta name="viewport" content="width=device-width" />
     <title>Nicholas Harenberg</title>
 
     <!-- external CSS link -->
@@ -13,102 +12,165 @@
     <link href='https://fonts.googleapis.com/css?family=Lobster|Pacifico|Amatic+SC|Orbitron|Bangers|Poiret+One|Quicksand' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
   </head>
-  <body>
+  <div class="w3-container">
+    <div class="pageOne text-center fill-screen" id="p1">
+      <div class ="navBar">
+        <ul class="nav nav-pills">
+          <li>
+            <a>Nicholas Harenberg</a>
+          </li>
 
-    <nav>
-		<ul>
-			<li><a href='#experience'>Core Competencies</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a class="portfilio" href="#portfolio">Portfolio</a></li>
-			<li><a class="about" href="#about">About Me</a></li>
+          <li class="pull-right">
+            <a href="#contact">Contact Me</a>
+          </li>
 
+           <li class="pull-right">
+            <a href="#portfolio">Portfolio</a>
+          </li>
 
-		</ul>
+          <li class="pull-right">
+            <a href="#about">About Me</a>
+          </li>
 
-    </nav>
+        </ul>
+      </div>
+      <div class="block text-center">
+        <h1 class="text-center">Nicholas Harenberg</h1>
+        <h3>Always Learning. Always Innovating.</h3>
+      </div>
 
-    <h1>Nicholas Harenberg</h1>
+      <div class ="btnList text-center">
+        <a class ="btn btn-default" href="https://github.com/nharenberg"> <i class="fa fa-github fa-lg" id="githubIcon" aria-hidden="true"></i> GitHub</a>
+        <a class = "btn btn-default"  href = "https://www.linkedin.com/in/nicholas-harenberg-83556b124"><i class="fa fa-linkedin-square fa-lg" id="linkedinIcon" aria-hidden="true"></i> Linkedin</a>
 
+    </div>
+    </div>
+    <div class = "pageTwo" id="about">
+      <div class ="row">
+      <div class ="col-md-6 text-center aboutPar">
+        <h1>A Bit About Me</h1>
+        <p>I moved to New York in 2015 from Denver, CO because I wanted to take full advantage of the Web Development education that can be found in New York City.
+          After living in New York for a year, taking some Web Design classes and doing some small freelance projects, I was accepted to an incubator in Silicon Valley, where I was coding HTML/CSS and Javascript for 16 hours a day, 6 days a week, for 4 months.
+          Shortly after that I moved to San Jose and did UI/UX work for an unfunded (and undisclosed) startup.
+          I am now back home in good ol' Denver, working as a computer science teacher at <a href="https://codingwithkids.com">Coding With Kids</a>.
+           Web Development has always been something that interested me and I am always pushing myself to do better.
+           In my spare time I enjoy collecting vinyl records, snowboarding, playing ice hockey, fiddling around on the guitar, and cooking.  </p>
 
-    <section id='experience'>
-    <h2>Core Competencies</h2>
+        </div>
+        <div class ="col-md-6 text-center img-w-text">
+          <img src="./images/me.jpg" class ="me"/>
+          <div class="skills text-center">
+            <h1>SKILLS</h1>
 
-    <ul>
-      <li> <img class="icon" src="images/html.png"> <img class="icon" src="images/css.png"> <img class="icon" src="images/js.png"> <img class="icon" src="images/jq.png"> <img class="icon" src="images/react.png"> <img class="icon" src="images/node.png"></li>
-      <br>
-      <li>• Self-starter and high achiever, dedicated to achieving results through team-working and individual contribution</li>
-      <li>• Proficient in use of Apple and Microsoft products</li>
-      <li>• Excellent listening and processing skills</li>
-    </section>
+            <h2>HTML</h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                90%
+              </div>
+            </div>
 
-        <section id='education'>
-    <h2 class="education">Education</h2>
+            <h2>CSS</h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                90%
+              </div>
+            </div>
 
-    <ul>
-      <li><strong>Coding House (Livermore, CA)</strong> - Full Stack Javascript Academy, 2016 </li>
-      <li><strong>General Assembly (New York, NY)</strong> - FEWD Bootcamp, 2016</li>
-      <li><strong>Suffolk County Community Collge (Brookhaven, NY)</strong> - Web Page Design HTML ( I & II), 2015</li>
-      <li><strong>Long View High School (Lakewood, CO)</strong> - Diploma, 2012 (Honors)</li>
-    </ul>
-    </section>
+            <h2>Bootstrap</h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                90%
+              </div>
+            </div>
 
+            <h2>Javascript</h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                70%
+              </div>
+            </div>
 
+            <h2>jQuery</h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                70%
+              </div>
+            </div>
 
-    <section id='portfolio'>
-    <h2>Portfolio</h2>
+            <h2>MySQL</h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                50%
+              </div>
+            </div>
 
-    <ul>
-      <li class="clearfix">
-      <a target="_blank" href="http://nharenberg.github.io/relaxr/index.html"><img class="screenshot" src="images/relaxr_deliverable.png">
-      </a>
-        <h4><strong>Web Developer</strong>, Relaxr </h4>
-        <p>A landing page for potential start-up that renders on mobile devices. Used JavaScript(JQuery) HTML and CSS</p>
-                <h6><i>This is a frame for a website that I built (not an actual website)</i>
-                </h6>
+            <h2>Microsoft Office</h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                90%
+              </div>
+            </div>
+            <p>In addition to these technologies, I also have expierence with ReactJS, NodeJS, ExpressJS, and MongoDB.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      </li>
+    <div class ="pageThree text-center" id="portfolio">
+        <h1>Portfolio</h1>
+        <h3>Here are some website templates that I have built</h3>
+        <div class="row">
+        <div class ="col-sm-6 col-md-6">
+          <a target="_blank" href="http://nharenberg.github.io/relaxr/index.html"><img class="screenshot" src="images/relaxr_deliverable.png">
+          </a>
+            <h5>A landing page for potential start-up that renders on mobile devices. Used JavaScript(JQuery) HTML and CSS</h5>
 
-      <li class="clearfix">
-      <a target="_blank" href="http://nharenberg.github.io/startup_matchmaker/index.html"><img class="screenshot" src="images/startup_matchmaker_deliverable.png" ></a>
-        <h4><strong>Web Developer</strong>, Startup Matchmaker</h4>
-        <p>Used a wireframe to develop this responsive homepage with functioning JavaScript that renders on mobile.</p>
-        <h6><i>This is just a frame for a website that I built (not an actual website)</i></h6>
+        </div>
+         <div class ="col-sm-6 col-md-6">
+           <a target="_blank" href="http://nharenberg.github.io/startup_matchmaker/index.html"><img class="screenshot" src="images/startup_matchmaker_deliverable.png" ></a>
+             <h5>Full site with functioning JavaScript that renders on mobile.</h5>
 
-      </li>
+          </div>
+        </div>
+         <div class="row">
+           <div class ="col-sm-6 col-md-6">
+             <a target="_blank" href="http://nharenberg.github.io/citypix/index.html"><img class="screenshot" id="citipix" src="images/citipix_deliverable.png"></a>
+             <h5>Built web app prototype that allows users to store and quickly retrieve photos using keywords.</h5>
+          </div>
 
-      <li class="clearfix">
-        <a target="_blank" href="http://nharenberg.github.io/citypix/index.html"><img class="screenshot" src="images/citipix_deliverable.png"></a>
-        <h4><strong>Web Developer</strong>, CitiPix </h4>
-        <p>Built web app prototype that allows users to store and quickly retrieve photos using keywords.</p>
-        <h6><i>This is a frame for a website that I built (not an actual website)</i></h6>
+        </div>
+    </div>
+    <div class ="pageFour text-center" id="contact">
+      <div class = "row">
+        <div class = "col-md-8">
+          <h1>Contact Me
+            <a class="email"href="mailto:n.harenberg@live.com" target="blank">n.harenberg@live.com</a></h1>
+        </div>
+        <div class = "col-md-4">
+          <div class ="btn">
 
-      </li>
+    <br/>
+            <a class ="btn btn-default paddingBTN" href="https://github.com/nharenberg">
+              <i class="fa fa-github fa-lg" id="githubIcon" aria-hidden="true">
+              </i>
+              GitHub
+            </a>
+                <br/>
+            <a class ="btn btn-default paddingBTN" href="https://www.linkedin.com/in/nicholas-harenberg-83556b124">
+              <i class="fa fa-linkedin-square fa-lg" id="linkedinIcon" aria-hidden="true">
+              </i>
+              Linkedin
+            </a>
+                <br/>
 
-    </ul>
-    </section>
-
-
-    <section id='about'>
-    <h2>About me</h2>
-
-    <p>I moved to New York in July of 2015 from Denver, CO where I had lived for the past 17 years because I wanted to take full advantage of the Web Development education that can be found in New York City. I'm currently living in San Jose, doing freelance development for small businesses. Web Development has always been something that interested me and I am always pushing myself to do better. In my spare time I enjoy collecting vinyl records, snowboarding, playing ice hockey, fiddling around on the guitar, and cooking.  </p>
-    <img id='me' src="images/headshot.jpg">
-    </section>
-
-    <hr>
-
-<footer>
-<a href='https://github.com/nharenberg'><i class="fa fa-github fa-3x"></i></a>
-<a href='mailto:n.harenberg@live.com'><i class="fa fa-envelope fa-3x"></i></a>
-
-
-</footer>
-
-<button id='scrollToTop'>^</button>
-
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
-  <script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
-  <script src='js/main.js'></script>
-  </body>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+  <script src= "./js/main.js"></script>
 </html>

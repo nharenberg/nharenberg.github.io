@@ -1,249 +1,175 @@
-body {
-  font-family: sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-  margin: 65px 0px 30px 0px;
-  border-bottom: 5px solid #222222;
-/*  border-top: 6px solid #222222;*/
-/*  padding: 50px;*/
-  background: #2D2D2D;
-  color: black;
+#githubIcon{
+  color:rgb(102,43,129);
 }
 
-a {
-  font-weight: bold;
-  color: #05080C;
-  text-decoration: none;
+#linkedinIcon{
+  color:rgb(0,127,178);
 }
 
-small {
-  color: #05080C;
-}
-
-strong {
-/*  color: #030609;*/
-  font-style: italic;
-}
-
-h1 {
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  margin-top: 0px;
-  font-family: 'poiret one';
-  font-size:80px;
-  height: 90px;
-  text-shadow: 0 0 10px white;
-
-}
-
-h2 {
-  color: #030609;
-  font-family: 'open sans';
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 45px;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 18px;
-  color: #030609;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 42px;
-}
-
-h4 {
-  font-weight: normal;
-  margin-bottom: 0;
-/*  color: #05080C;*/
-  font-family: 'open sans';
-  font-size: 25px;
-}
-
-p {
-  font-family: Georgia, serif;
-  margin-top: 0;
-  margin-bottom: 0;
-  /*margin-bottom: 27px;*/
-/*  color: #05080C;*/
-}
-
-ul {
-  list-style: square;
-  padding: 0;
-  margin: 0;
-}
-
-/*ul p {
-  color: #05080C;
+/*.container{
+  width: 100%
 }*/
 
-nav li {
-  color: #05080C;
-  display: inline-block;
-  margin-top: 0px;
-  padding: 18px 35px;
+.block{
+  background-color:black;
+  opacity:.8;
+  padding:10px;
+  width:50%;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:10px;
 }
 
-section{
-  min-height: 400px;
-  padding: 15px 30px;
+i{
+  color:white;
 }
-*{
-  box-sizing: border-box;
-}
-
-hr {
-  border: none;
-  border-top: 1px solid #222222;
-  margin: 30px 0;
+.nav-pills{
+  font-size:1.7em;
+  background-color:black;
+  margin-bottom:10%;
 }
 
-.screenshot {
-  margin-left: 20px;
-  margin-bottom: 20px;
-  padding: 5px;
-  text-align: center;
-  height: 200px;
-  float: right;
+body{
+  background-color:black;
+  font-family:Poiret One;
+  color:white;
+}
+h1{
+  padding:0;
+  margin-top:0px;
+  font-size:5.0em;
+  padding-top:0%;
+}
+
+.btn-default{
+  background-color:black;
+  border-color:black;
+  color:#337ab7;
+  font-size:1.7em;
+  margin-top:1%;
+}
+
+.pageOne{
+  background:url("https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-0.3.5&q=80&fm=jpg&s=ea7623efb1f5115a216e43130cf1f524");
+  background-size:cover;
+  padding-bottom:10%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.pageTwo{
+ background:url("./images/mountains.jpeg");
+  background-size:cover;
+   padding-bottom:10%;
+  padding-top:5%;
+  width: 100vw;
+}
+
+.aboutPar {
+  background-color: rgba(0, 0, 20, 0.3);
+}
+
+.progress {
+  width: 80%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.img-w-text h2, h1, p{
+  text-shadow: 3px 3px 3px black;
 }
 
 
-
-nav {
-  color: #222222;
-  text-align: center;
-  background: wheat;
-  position: fixed;
-  opacity: 0.9;
-  top:0;
-  right: 0;
-  width: 100%;
-  font-family: 'open sans';
-  font-weight: 700;
-  text-transform: uppercase;
+.pageThree{
+  background:url("./images/nyc_bw.jpg");
+    background-size:cover;
+   padding-bottom:10%;
+  padding-top:5%;
 }
 
-#scrollToTop{
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  width: 60px;
-  background: wheat;
-  border-radius: 10%;
-  display: none;
-  font-style: bold;
-  font-family: 'open sans';
-  font-size: 19px;
-  text-decoration: bold;
-  height: 30px;
-  width: 30px;
-  opacity: 0.8;
+.pageThree h5, h4 {
+  text-shadow: 3px 3px 3px black;
+  background-color: rgba(192, 192, 192, 0.8);
 }
 
-#me{
-  float: right;
-  border-radius: 50%;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  padding: 5px;
-  text-align: center;
-  height: 200px;
+.pageThree h5 {
+  font-size: 20px;
 }
 
-#about{
-  background: url('images/mountains2.jpeg') no-repeat;
+#citipix {
+  height: 320px;
+}
+
+.pageThree img {
+  height: 400px;
+}
+
+.pageFour{
+  background:url("./images/mountains2.jpeg");
+  background-size:cover;
+ padding-bottom:10%;
+  padding-top:5%;
+  margin-bottom:;
+}
+
+.email{
+  text-shadow: 3px 3px 3px black;
+  background-color: rgba(192, 192, 192, 0.8);
+}
+.footer p{
+  font-size:15px;
+}
+p{
+  font-size:2.2em;
+  margin: 5px;
+}
+.pItems {
+  height: 250px;
+  border-radius:50%;
+}
+
+.paddingBTN{
+   width:200px;
+  margin-bottom:25px;
+}
+
+.paddingTop{
+
+ padding-top:2%;
+ padding-bottom:2%;
+
+}
+
+.me{
+  height:500px;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.fill-screen {
   background-size: cover;
-
+  background-position: center;
 }
 
-#experience{
-  background: url('images/nyc_bw.jpg') no-repeat;
-  background-size: cover;
-}
-
-#portfolio{
-  background-attachment: fixed;
-  background-image: url('images/footer.png');
-  background-size: cover;
-  color: white;
-}
-
-li{
-  list-style-type: none;
-  font-weight: bold;
-
-}
-footer{
-text-align: center;
-padding:0 90px;
-
-}
-
-.fa{
-  color: white;
-}
-
-.fa:hover{
-  color: wheat;
-}
-#education{
-  min-height: 200px;
-  color: white;
-  background-attachment: fixed;
-  background-image: url('images/footer.png');
-  background-size: cover;
-}
-
-.clearfix{
-  overflow: auto;
-}
-
-nav li a:hover{
-    background: #2D2D2D;
-    color: wheat;
-}
-
-nav li a {
-  padding: 20px 5px;
-  transition: 0.5s all;
-}
-
-#experience ul{
-  background-color: rgba(255, 255, 255, .3);
-  padding: 10px;
-  box-shadow: 0 0 5px rgba(0,0,0,.75);
-}
-
-#about p{
-  background-color: rgba(255, 255, 255, .3);
-  padding: 10px;
-  box-shadow: 0 0 5px rgba(0,0,0,.75);
-  text-shadow: 0 0 3px white;
-  font-weight: bold;
-
-}
-
-a:visited{
-  text-decoration: none;
-}
-
-#experience li{
-    font-family: Georgia, serif;
-    text-shadow: 0 0 50px white;
-}
-
-@media screen and (max-width: 768px)
-{
-
-}
-
-.icon {
-  height: 50px;
-  float: center;
-  padding-right: 40px;
-  padding-left: 5px;
+@media screen and (max-width: 767px) {
+  .navBar{
+    display: none;
+  }
+  .pageThree{
+    display: inline;
+  }
+  #portfolio img {
+    width: 80vw;
+  }
+  .email {
+    font-size: 50%
+  }
+  #contact {
+    background-size: : 100vw;
+  }
+  .block{
+    width: auto;
+    margin-top: 10px;
+  }
 }
