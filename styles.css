@@ -168,13 +168,18 @@ p{
   background-position: center;
 }
 
+.screenshot{
+  max-width: 98% !important;
+}
+
 @media screen and (max-width: 1080px) {
   /*.navBar{
     display: none;
   }*/
-  .pageThree{
+  /*.pageThree{
     display: inline;
-  }
+    background:url("./images/nyc_bw.jpg");
+  }*/
   #portfolio img {
     width: 80vw;
   }
